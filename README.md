@@ -24,17 +24,14 @@ Training detail: batch 12, transfer from FFHQ, non-leaking augmentation
 
 ### FID (10k samples)
 
-FFHQ 256.54
-
-50k 11.73
-
-100k 9.29
-
-150k 8.87
-
-200k 8.11
-
-250k 7.41
+| Iteration            | FID               | 
+| :------------------- | :----------------:|
+| FFHQ                 | 256.54            |
+| 50k                  | 11.73             |
+| 100k                 | 9.29              |
+| 150k                 | 8.87              |
+| 200k                 | 8.11              |
+| 250k                 | 7.41              |
 
 
 ### Samples (FID 8.87)
