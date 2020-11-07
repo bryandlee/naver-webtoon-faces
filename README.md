@@ -141,14 +141,7 @@ Failures
 ![./imgs/swapae/22.png](./imgs/swapae/22.png)
 
 
-### JTBC
+### JTBC Samples
 
-![./imgs/swapae/jtbc-1.png](./imgs/swapae/jtbc-1.png)
-
-![./imgs/swapae/jtbc-2.png](./imgs/swapae/jtbc-2.png)
-
-![./imgs/swapae/jtbc-3.png](./imgs/swapae/jtbc-3.png)
-
-![./imgs/swapae/jtbc-4.png](./imgs/swapae/jtbc-4.png)
-
+![./imgs/swapae/JTBC.png](./imgs/swapae/JTBC.png)
 
