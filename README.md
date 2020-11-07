@@ -143,5 +143,5 @@ Failures
 
 ### JTBC Samples
 
-![./imgs/swapae/JTBC.png](./imgs/swapae/JTBC.png)
+![./imgs/swapae/jtbc.png](./imgs/swapae/jtbc.png)
 
