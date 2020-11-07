@@ -140,5 +140,15 @@ Failures
 
 ![./imgs/swapae/22.png](./imgs/swapae/22.png)
 
-Perhaps matching the statistics at each layer could help.
+
+### JTBC
+
+![./imgs/swapae/jtbc-1.png](./imgs/swapae/jtbc-1.png)
+
+![./imgs/swapae/jtbc-2.png](./imgs/swapae/jtbc-2.png)
+
+![./imgs/swapae/jtbc-3.png](./imgs/swapae/jtbc-3.png)
+
+![./imgs/swapae/jtbc-4.png](./imgs/swapae/jtbc-4.png)
+
 
