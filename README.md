@@ -3,7 +3,7 @@
 ![./results/exploration.gif](./results/exploration.gif)
 
 
-This repo heavily uses codes from [[original repo]](https://github.com/rosinality/swapping-autoencoder-pytorch) 
+This repo heavily uses codes from [[this repo]](https://github.com/rosinality/swapping-autoencoder-pytorch) 
 
 ## Dataset
 
