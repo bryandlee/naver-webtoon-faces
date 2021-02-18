@@ -1,6 +1,6 @@
 # **Naver Webtoon Faces**
 
-![./results/exploration.gif](./results/exploration.gif)
+![./imgs/face2webtoon/dh.gif](./imgs/face2webtoon/dh.gif)
 
 
 This repo heavily uses codes from [[this repo]](https://github.com/rosinality/swapping-autoencoder-pytorch) 
@@ -130,8 +130,19 @@ From [**Slam Dunk**](https://en.wikipedia.org/wiki/Slam_Dunk_(manga))
 ![./imgs/swapae/18.png](./imgs/swapae/18.png)
 
 
-### FFHQ Samples
-EdgeExtraction [[code]](https://github.com/xavysp/DexiNed/tree/master/DexiNed-Pytorch)  + FacialCartoonization [[code]](https://github.com/SystemErrorWang/FacialCartoonization) → SwapAE
+
+## Face2Webtoon
+
+
+### Finetuning SwapAE
+Finetuning the webtoon-trained SwapAE model with real human faces for small amount of steps improves the robustness. Using the StyleGAN as a style image generator, exploration of styles without real webtoon data is also possible. See `train_aux.py` and `face2webtoon.ipynb`.
+
+![./imgs/face2webtoon/dh.jpg](./imgs/face2webtoon/dh.jpg)
+
+
+
+### Facial cartoonizer + Style Swapping
+Without finetuning, EdgeExtraction [[code]](https://github.com/xavysp/DexiNed/tree/master/DexiNed-Pytorch)  + FacialCartoonization [[code]](https://github.com/SystemErrorWang/FacialCartoonization) → SwapAE also produces nice results.
 
 ![./imgs/swapae/19.png](./imgs/swapae/19.png)
 
@@ -147,4 +158,5 @@ Failures
 ### JTBC Samples
 
 ![./imgs/swapae/jtbc.png](./imgs/swapae/jtbc.png)
+
 
