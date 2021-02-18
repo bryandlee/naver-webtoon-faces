@@ -1,6 +1,9 @@
 # **Naver Webtoon Faces**
 
-![./imgs/stylegan2/exploration.gif](./imgs/stylegan2/exploration.gif)
+![./results/exploration.gif](./results/exploration.gif)
+
+
+This repo heavily uses codes from [[original repo]](https://github.com/rosinality/swapping-autoencoder-pytorch) 
 
 ## Dataset
 
@@ -18,7 +21,7 @@ total images: 17662
 ## StyleGAN2
 
 
-[[paper]](https://arxiv.org/abs/1912.04958) [[code]](https://github.com/rosinality/stylegan2-pytorch) [[model]](https://drive.google.com/file/d/14JLmYRtUFDbTC4IVzt14Os-tf23BXMLd/view?usp=sharing)
+[[paper]](https://arxiv.org/abs/1912.04958) [[model]](https://drive.google.com/file/d/14JLmYRtUFDbTC4IVzt14Os-tf23BXMLd/view?usp=sharing)
 
 Training detail: batch 12, transfer from FFHQ, non-leaking augmentation
 
@@ -55,7 +58,7 @@ Training detail: batch 12, transfer from FFHQ, non-leaking augmentation
 ## Swapping Autoencoder for Deep Image Manipulation
 
 
-[[paper]](https://arxiv.org/abs/2007.00653) [[code]](https://github.com/rosinality/swapping-autoencoder-pytorch) [model]
+[[paper]](https://arxiv.org/abs/2007.00653) [model]
 
 SwapAE is a fully unsupervised generative model that embeds images into structure and style codes (similar to MUNIT). In SwapAE, the style encoder is forced to extract the global texture of the image by explicitly matching the patch statistics of the original image and swap-generated image (patch co-occurrence loss).
 
