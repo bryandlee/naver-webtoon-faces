@@ -2,6 +2,8 @@
 
 ![./imgs/face2webtoon/dh.gif](./imgs/face2webtoon/dh.gif)\
 
+Face to cartoon conversion code is added.
+
 ![./imgs/face2webtoon/grb.jpg](./imgs/face2webtoon/grb.jpg)\
 ![./imgs/face2webtoon/je.jpg](./imgs/face2webtoon/je.jpg)\
 ![./imgs/face2webtoon/jyp.jpg](./imgs/face2webtoon/jyp.jpg)
