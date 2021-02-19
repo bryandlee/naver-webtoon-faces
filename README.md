@@ -1,7 +1,10 @@
 # **Naver Webtoon Faces**
 
-![./imgs/face2webtoon/dh.gif](./imgs/face2webtoon/dh.gif)
+![./imgs/face2webtoon/dh.gif](./imgs/face2webtoon/dh.gif)\
 
+![./imgs/face2webtoon/grb.jpg](./imgs/face2webtoon/grb.jpg)\
+![./imgs/face2webtoon/je.jpg](./imgs/face2webtoon/je.jpg)\
+![./imgs/face2webtoon/jyp.jpg](./imgs/face2webtoon/jyp.jpg)
 
 This repo heavily uses codes from [[this repo]](https://github.com/rosinality/swapping-autoencoder-pytorch) 
 
