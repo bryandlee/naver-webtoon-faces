@@ -1,8 +1,8 @@
 # **Naver Webtoon Faces**
 
-![./imgs/face2webtoon/dh.gif](./imgs/face2webtoon/dh.gif)\
+![./imgs/face2webtoon/dh.gif](./imgs/face2webtoon/dh.gif)
 
-Facial cartoonization code is added.
+Face cartoonization code is added.
 
 ![./imgs/face2webtoon/grb.jpg](./imgs/face2webtoon/grb.jpg)\
 ![./imgs/face2webtoon/je.jpg](./imgs/face2webtoon/je.jpg)\
