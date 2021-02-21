@@ -139,8 +139,8 @@ From [**Slam Dunk**](https://en.wikipedia.org/wiki/Slam_Dunk_(manga))
 ## Face2Webtoon
 
 
-### Finetuning SwapAE
-Finetuning the webtoon-trained SwapAE model with real human faces for small amount of steps improves the robustness. Using the StyleGAN as a style image generator, exploration of styles without real webtoon data is also possible. See `train_aux.py` and `face2webtoon.ipynb`.
+### Finetuning SwapAE 
+Finetuning the webtoon-trained SwapAE model with real human faces for small amount of steps improves the robustness. Using the StyleGAN as a style image generator, exploration of styles without real webtoon data is also possible. See `train_aux.py` and `face2webtoon.ipynb`. An unconditional lightweight model can be found [here](https://github.com/bryandlee/animegan2-pytorch).
 
 ![./imgs/face2webtoon/dh.jpg](./imgs/face2webtoon/dh.jpg)
 
