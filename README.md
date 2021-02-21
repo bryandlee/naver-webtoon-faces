@@ -2,7 +2,7 @@
 
 ![./imgs/face2webtoon/dh.gif](./imgs/face2webtoon/dh.gif)
 
-Face cartoonization code is added.
+Face cartoonization code is added. See [here](https://github.com/bryandlee/naver-webtoon-faces/blob/master/README.md#face2webtoon).
 
 ![./imgs/face2webtoon/grb.jpg](./imgs/face2webtoon/grb.jpg)\
 ![./imgs/face2webtoon/je.jpg](./imgs/face2webtoon/je.jpg)\
