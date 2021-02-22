@@ -117,18 +117,23 @@ def train_lite(args):
     
     mean_tx = torch.load(args.mean_texture).to(device).repeat(args.batch, 1)
     
+    iters = 0
     
     # lite model & optimizer
-    g_lite = Generator_lite().to(device)
-    if args.ckpt is not None:
-        g_lite.load_state_dict(torch.load(args.ckpt, map_location=device))
-        print(f"checkpoint loaded: {args.ckpt}")
-    
+    g_lite = Generator_lite().to(device)    
     optimizer = optim.Adam(
         g_lite.parameters(),
         lr=args.lr,
         betas=(0, 0.99),
     )
+    
+    if args.ckpt is not None:
+        ckpt = torch.load(args.ckpt, map_location=device)
+        g_lite.load_state_dict(ckpt["state_dict"])
+        optimizer.load_state_dict(ckpt["optim"])
+        iters = ckpt["iters"]
+        print(f"checkpoint loaded: {args.ckpt}")
+    
     
     l2_loss_fn = nn.MSELoss().to(device)
     vgg_loss_fn = VGGLoss().to(device)
@@ -154,7 +159,6 @@ def train_lite(args):
     os.makedirs(f"{args.result_path}/samples", exist_ok=True)
     writer = SummaryWriter(f"{args.result_path}/log")
         
-    iters = 53000 
     while True:
         
         try:
