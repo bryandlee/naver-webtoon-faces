@@ -10,7 +10,7 @@ Face cartoonization code is added. See [here](https://github.com/bryandlee/naver
 
 This repo heavily uses codes from [[this repo]](https://github.com/rosinality/swapping-autoencoder-pytorch) 
 
-## Dataset
+## Dataset [[link](https://github.com/bryandlee/naver-webtoon-data)]
 
 
 256*256 cartoon face images collected from on-going [NAVER Webtoon](https://comic.naver.com/index.nhn) series.
